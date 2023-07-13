@@ -24,3 +24,4 @@ results_1 <- FindTopicsNumber(
   mc.cores = 8L,
   verbose = TRUE
 )
+FindTopicsNumber_plot(results_1)
